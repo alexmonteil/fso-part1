@@ -1,23 +1,37 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+lesson/node_modules
+exercises/node_modules
+lesson/.pnp
+exercises/.pnp
+lesson/.pnp.js
+exercises/.pnp.js
 
 # testing
-/coverage
+lesson/coverage
+exercises/coverage
 
 # production
-/build
+lesson/build
+exercises/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+lesson/.DS_Store
+exercises/.DS_Store
+lesson/.env.local
+exercises/.env.local
+lesson/.env.development.local
+exercises/.env.development.local
+lesson/.env.test.local
+exercises/.env.test.local
+lesson/.env.production.local
+exercises/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+lesson/npm-debug.log*
+exercises/npm-debug.log*
+lesson/yarn-debug.log*
+exercises/yarn-debug.log*
+lesson/yarn-error.log*
+exercises/yarn-error.log*
